@@ -1,6 +1,6 @@
 {
   "name": "tea-run-oss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,10 @@
     "url": "https://github.com/AdeKonde/tea-run-oss/issues"
   },
   "homepage": "https://github.com/AdeKonde/tea-run-oss#readme",
-  "source": "https://github.com/AdeKonde/tea-run-oss.git"
+  "source": "https://github.com/AdeKonde/tea-run-oss.git",
+  "dependencies": {
+    "alchemy-sdk": "^3.2.0",
+    "ethers": "^6.11.1",
+    "kondetea": "^1.1.4"
+  }
 }
